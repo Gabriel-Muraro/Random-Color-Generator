@@ -1,11 +1,12 @@
-.nav-center{
+.nav-center {
 
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+
+    align-items: center;
+
 }
 
-.nav-center h4{
+.nav-center h4 {
 
     display: inline-block;
     margin-left: 5%;
@@ -13,39 +14,44 @@ align-items: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    
 
 }
 
-.nav-links{
+.nav-links {
 
-    margin-left: 45%;
-    margin-right: 5%;
+    margin-left: 35%;
+
 
 }
 
-.nav-links li{
-    
+.nav-links a {
+
+    padding: 20px;
+
+}
+
+.nav-links li {
+
     display: inline-block;
     flex-direction: row;
     text-transform: uppercase;
     font-weight: bold;
     padding: 0 15px 0 15px;
-   
+
 
 }
 
-.nav-links a{
+.nav-links a {
 
     text-decoration: none;
     color: black;
     letter-spacing: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 
 }
 
-.container{
+.container {
 
     margin-top: 10%;
     display: flex;
@@ -55,20 +61,20 @@ align-items: center;
 
 }
 
-.container h2{
+.container h2 {
 
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:35px;
+    font-size: 35px;
     color: white;
-    background-color: black;
+    background-color: rgb(136, 136, 136);
     border-radius: 50%;
     padding: 25px 50px 25px 50px;
 
 
 }
 
-#btn{
+#btn {
 
     font-size: 25px;
     padding: 20px 50px 20px 50px;
